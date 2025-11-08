@@ -1,0 +1,4 @@
+# Upload only prebuilt output when using `vercel deploy --prebuilt`
+*
+!.vercel
+!.vercel/output/**
