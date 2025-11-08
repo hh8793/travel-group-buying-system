@@ -1,8 +1,3 @@
 {
-  "version": 2,
-  "env": {
-    "NEXT_PUBLIC_SUPABASE_URL": "https://cgdidyvjobqafwgnzrwg.supabase.co",
-    "NEXT_PUBLIC_SUPABASE_ANON_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImNnZGlkeXZqb2JxYWZ3Z256cndnIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjI1NDI0OTksImV4cCI6MjA3ODExODQ5OX0.iGlEBEbgjUDqLWXQSVVgN2LfAaZscPCIRoFd_OqWq7k",
-    "NEXT_PUBLIC_APP_ENV": "production"
-  }
+  "version": 2
 }

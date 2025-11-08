@@ -1,20 +1,9 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import "antd/dist/reset.css";
 import { AntdRegistry } from '@ant-design/nextjs-registry';
 import Header from '@/components/common/Header';
 import { AuthSyncProvider } from '@/components/providers/AuthSyncProvider';
-
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
 
 export const metadata: Metadata = {
   title: "拼团旅游 - 实时在线拼团旅游平台",
@@ -29,9 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="zh-CN">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      <body className={`antialiased`}>
         <AntdRegistry>
           <AuthSyncProvider />
           <Header />
